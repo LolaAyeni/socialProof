@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body{
+  background-color: white;
+  background: url(../images/bg-pattern-top-desktop.svg) no-repeat,  url(../images/bg-pattern-bottom-desktop.svg) no-repeat;
+  background-position: relative;
+  top: 0;
+  bottom: 0;
+  font-size: 15px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+/* Here is my first two divs placed beside each other */
+.firstbox{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  width: 97%;
+  align-items: center;
+  height: 40vh;
+}
+.box1a{
+  width: 50%;
+  align-items: center;
+  text-align: left;
+  margin: 0px 15px;
+  padding: 10px 80px;
+  padding-top: 20px;
+  
+}
+.box1a p{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  width: 110%;
+  color: hsl(303, 10%, 53%)
+}
+.box1a h1{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 45px;
+}
+.box p{
+  color: hsl(303, 10%, 53%);
+  width: 100%;
+  font-weight: 500;
+}
+.box2a{
+  width: 60%;
+  align-items: left;
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 40px;
+}
+.rated{
+  margin-bottom: 20px;
+  display: flex;
+  padding: 10px;
+  width: 65%;
+  color: hsl(300, 43%, 22%);
+}
+.rated1, .rated2, .rated3{
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+}
+.review1{
+  margin-left: 30px;
+}
+.review1 p{
+  color:hsl(300, 43%, 22%);
+  font-weight: 500;
+}
+.rated.rated2{
+  margin-left: 40px;
+}
+.rated.rated3{
+  margin-left: 80px;
+}
+
+/* second main div */
+.secondbox{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 10px;
+  width: 97%;
+  padding-left: 80px;
+  padding-right: 90px;
+  padding-top: 20px;
+  height: 40vh;
+}
+.secondbox .bg{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  margin: 0 20px;
+  margin-right: 20px;
+  width: 320px;
+  height: 200px; 
+  padding: 20px 10px;
+  padding-left: 30px;
+}
+
+.secondbox .box2{
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.secondbox .box3{
+  margin-top: 30px;
+}
+.inner1{
+  display: flex;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+img{
+  border-radius: 50%;
+  height: 40px;
+  margin-right: 20px;
+}
+.inner2 p{
+  padding-right: 25px;
+  line-height: 17px;
+}
+.div2 p{
+  color: hsl(333, 80%, 67%);
+  margin-top: 5px;
+}
+.secondbox .primary{
+  color:hsl(300, 24%, 96%);
+  font-weight: 400;
+}
